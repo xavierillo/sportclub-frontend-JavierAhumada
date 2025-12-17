@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
     background-color: #111;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -12,9 +13,13 @@
 
 }
 
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
 .nav a {
     color: white;
     margin-left: 15px;
     text-decoration: none;
 }
-

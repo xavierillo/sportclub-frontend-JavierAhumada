@@ -13,7 +13,12 @@ export default function Landing() {
                 </section>
                 <section className="clases">
                     <h3>Clases disponibles</h3>
-                    <p>Crossfit · Funcional · Yoga · Cardio</p>
+                    <div className="cards">
+                        <div className="card">Crossfit</div>
+                        <div className="card">Funcional</div>
+                        <div className="card">Yoga</div>
+                        <div className="card">Cardio</div>
+                    </div>
                 </section>
             </main>
             <Footer />
