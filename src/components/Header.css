@@ -4,7 +4,6 @@
     align-items: center;
     padding: 20px;
     background-color: #111;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -17,6 +16,5 @@
     color: white;
     margin-left: 15px;
     text-decoration: none;
-
 }
 
